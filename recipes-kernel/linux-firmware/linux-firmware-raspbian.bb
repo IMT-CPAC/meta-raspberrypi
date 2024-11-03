@@ -12,7 +12,7 @@ NO_GENERIC_LICENSE[Firmware-broadcom_bcm43xx] = "LICENCE.broadcom_bcm43xx"
 SRCREV = "86e88fbf0345da49555d0ec34c80b4fbae7d0cd3"
 PV = "0.0+git${SRCPV}"
 
-SRC_URI = "git://github.com/RPi-Distro/firmware-nonfree"
+SRC_URI = "git://github.com/RPi-Distro/firmware-nonfree;protocol=ssh"
 
 UPSTREAM_VERSION_UNKNOWN = "1"
 
